@@ -1,0 +1,56 @@
+main, footer, header{
+    width: 700px;
+    margin: auto;
+    background-color:black;
+    border: 3px solid magenta;
+    padding: 25px 50px;
+    
+}
+
+header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+footer { 
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+}
+a:link {
+    color: hotpink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellowgreen;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+body {
+
+    padding: 20px;
+    margin: auto;
+    background: url(portalimages/missing.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+
+}

@@ -1,0 +1,237 @@
+body {
+    background: url(portalimages/rc-grid.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:     white;
+    background-color: rgb(234,223,251);
+
+}
+
+article {
+    color: black;
+    border-bottom: 5px solid  black;
+}
+
+article ul {
+    list-style-type: none;
+}
+header, footer { 
+    text-align: center;
+    padding: 5px 0;
+    background: rgb(174,169,215);
+    color: black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article {
+    margin: 20px;
+}
+nav ul li a {
+	display: block;
+	background:  white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+    border-bottom: 5px solid  black;
+}
+
+#nav h2 {
+    color: white;
+}
+/***
+picture {
+	display: block;
+	float: left;
+	width: 20%;
+	margin-right: 10px;
+}
+***/
+main {
+    display: block;
+    background-color: white;
+    padding: 20px;
+
+}
+.exercises a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.exercises a:visited{
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.exercises a:hover{
+    color: rgb(200, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.exercises a:active{
+    color: rgb(255, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.tools a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.tools a:visited{
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.tools a:hover{
+    color: rgb(200, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.tools a:active{
+    color: rgb(255, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.foot a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.foot a:visited{
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: rgb(200, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.foot a:active{
+    color: rgb(255, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+h1, h2{
+    font-family: monospace;
+}
+
+nav h2 {
+    background-color: rgb(90,78,176);
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+	
+	#container {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header, footer {
+        flex: 100%;
+    }
+
+    nav {
+        flex: 1;
+        background-color: rgb(90,78,176);
+        padding: 20px 10px;
+    }
+
+    main {
+        flex: 3;
+        width: 1100px;
+    }
+	
+}
+
+#logo {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    flex: 1 100%;
+}
+
+#six {
+    flex: 1 100%;
+}
+
+#five {
+    flex: 1 100%;
+}
+
+
+#four {
+    flex: 1 100%;
+}
+
+#three {
+    flex: 1 100%;
+}
+
+#two {
+    flex: 1 100%;
+}
+
+#one {
+    flex: 1 100%;
+}
+
+
+@media only screen and (min-width: 1100px) {
+	
+	/***** Maximum sized layout rules go in here ****/
+    #container {
+width: 1200px;
+margin: auto;
+    }
+    main {
+        flex: 3;
+
+        display: flex;
+    }
+
+    main article:first-of-type{
+        margin-right: 20px;
+    }
+
+    main article{
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    picture{
+		flex: 1;
+    }
+    
+}
+

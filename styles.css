@@ -1,0 +1,162 @@
+body {
+    background: url(portalimages/rc-grid.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color:     rgb(191,177,232);
+
+}
+
+header, footer { 
+    text-align: center;
+    padding: 40px 0;
+    background: rgb(40,57,94);
+
+    color:rgb(0,255,255);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+    border-top: 2px solid rgb(40,57,94);;
+}
+
+
+nav ul li a {
+	display: block;
+	background:  rgb(191,177,232);
+	padding: 20px 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: rgb(40,57,94);
+	font-weight: bold;
+	border-bottom: 2px solid  rgb(104,93,159);
+}
+
+
+
+main {
+    display: block;
+    background-color: rgb(104,93,159);
+    padding: 20px;
+
+}
+.exercises a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.exercises a:visited{
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.exercises a:hover{
+    color: rgb(200, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.exercises a:active{
+    color: rgb(255, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.tools a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.tools a:visited{
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.tools a:hover{
+    color: rgb(200, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.tools a:active{
+    color: rgb(255, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.foot a:link{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.foot a:visited{
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: rgb(200, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.foot a:active{
+    color: rgb(255, 0, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+h1, h2{
+    font-family: 'Press Start 2P', cursive;
+}
+
+@media only screen and (min-width: 600px) {
+	
+	#container {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header, footer {
+        flex: 100%;
+    }
+
+    nav {
+        flex: 1;
+        background-color: rgb(191,177,232);;
+    }
+
+    main {
+        flex: 2;
+    }
+	
+}
+
+@media only screen and (min-width: 1020px) {
+	
+	/***** Maximum sized layout rules go in here ****/
+    #container {
+width: 1020px;
+margin: auto;
+    }
+    main {
+        flex: 3;
+
+        display: flex;
+    }
+
+    main article:first-of-type{
+        margin-right: 20px;
+    }
+	
+}
+

@@ -1,0 +1,61 @@
+html {
+    scroll-behavior: smooth;
+}
+
+article{
+    width: 700px;
+    margin: auto;
+    background-color: lightgreen;
+}
+
+footer { 
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+font-size: 2 vw;
+}
+
+.introduction {
+padding: 20px;
+font-size: 1.4em;
+line-height: 2.4ems;
+
+}
+
+body {
+font-family: Georgia, ;
+color: black;
+line-height: 1.4em;;
+background-color: darkgreen;
+
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(224,248,214);
+    background-color: darkgreen;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(224,248,214);
+    border: 2px solid darkgreen;
+    padding: 20px;
+    display: block;
+    margin-bottom: 20px;
+    background-color: darkgreen;
+}
+
+nav ul li a {
+    background-color: darkgreen;
+}

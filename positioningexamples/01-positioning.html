@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Positioning</title>
+
+		<style>
+
+		* {
+			margin:0;
+			padding:0;
+		}
+
+		body {
+			background:#CCC;
+		}
+
+		#box {
+			border: 2px solid black;
+			width:500px;
+			margin:200px auto;
+			background:#fff;
+			padding:20px;
+			position: relative;
+		}
+
+		img {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			z-index: -1;
+		}
+
+		</style>
+
+
+	</head>
+
+	<body>
+
+		<div id="box">
+
+			<img src="llama.jpg" alt="llama">
+
+			<p>Here is some text inside the box for us to see how postioning works.</p>
+
+		</div>
+
+	</body>
+</html>

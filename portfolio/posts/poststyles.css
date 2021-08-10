@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../images/giftest.gif);
+}
+
+.sidenav {
+    background-color: #f8fa2a;
+}
+
+.sidenav a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #1e1e1e;
+    display: block;
+}
+
+.sidenav h2 {
+color: #1e1e1e;
+text-align: center;
+}
+
+.sidenav a:hover {
+    color: #000;
+}
+
+.pagenav {
+    background-color: #1e1e1e;
+}
+
+.pagenav a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f8fa2a;
+    display: block;
+}
+
+.pagenav a:hover {
+    color: yellow;
+}
+
+header {
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+}
+
+header h1 {
+    font-size: 50px;
+    background-color: #f8fa2a;
+}
+
+
+article {
+    border: solid 3px #f8fa2a;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+article h3 {
+    text-transform: uppercase;
+}
+
+article a{
+    color: #f8fa2a;
+}
+
+article a:hover {
+    color: yellow;
+}
+
+footer{
+    font-size: 7px;
+    color: #1e1e1e;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 500px) {
+
+    header { 
+        
+        text-align: center;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    footer {
+        background-color: #f8fa2a;
+        text-align: center;
+    }
+
+}
+@media only screen and (min-width: 1245px) {
+    .sidenav {
+        height: 100%;
+        width: 15%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+        margin-left: 10%;
+    }
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+    }
+
+    header {
+        width: 65%;
+        margin-left: 25% ;
+        padding: 0px 10px;
+        margin-right: 10%;
+        
+    }
+
+    header h1 {
+        position: fixed;
+        font-size: 50px;
+        padding: 20px;
+        margin-top: 0px;
+        width: 62.5%;
+    }
+
+    .main {
+        position: relative;
+        top: 95px;
+        margin-left: 13px ;
+        z-index: -1;
+    }
+
+    article {
+        width: 64.6%;
+        margin-left: 25% ;
+        /* Same as the width of the sidenav */
+        font-size: 20px;
+        /* Increased text to enable scrolling */
+        padding: 0px 5px;
+        height: 475px;
+        text-align: left;
+        text-indent: 30px;
+    }
+
+    article p {
+        padding-left: 10px;
+    }
+
+    img {
+        float: left;
+        padding-right: 20px;
+    }
+
+    footer {
+        background-color: transparent;
+        text-align: center;
+        color: white;
+        margin-left: -60%;
+    }
+    
+}

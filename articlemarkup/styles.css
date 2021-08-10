@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+}
+
+article, footer, header{
+    width: 700px;
+    margin: auto;
+    background-color: rgb(46,46,46);
+    border: 3px solid rgb(160,157,150);
+    padding: 25px 50px;
+    
+}
+
+header{
+    text-align: center;
+}
+
+footer { 
+    text-align: center;
+}
+
+body {
+
+    padding: 20px;
+    margin: auto;
+    background: url(images/researchbg.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;;
+
+
+}
+
+h1, h2, h3{
+    font-family: 'Quantico', sans-serif;;
+    color: rgb(35,230,210);
+}
+
+p {
+    text-indent: 50px;
+}
+
+a:link {
+    color: rgb(175, 240, 235);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(35,230,210);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(195,135,255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(235,215,255);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(160,157,150);
+  }
